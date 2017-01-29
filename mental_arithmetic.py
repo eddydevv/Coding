@@ -78,7 +78,7 @@ def plot_graph():
             y.append(float(line[1]))
 
         plt.xlim(0,18)
-        plt.ylim(0,120)
+        plt.ylim(0,150)
         plt.plot(x,y,'ro')
         print(x,y)
         plt.savefig(file_path(p, ".png", "summary"))
